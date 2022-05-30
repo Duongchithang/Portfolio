@@ -1,0 +1,175 @@
+
+{
+   "color": "#42b883",
+
+   "navbar": {
+      "logo": {
+         "light": "brand-icon.png",
+         "dark": "brand-icon.png"
+      },
+      
+      "links": {
+         "about": "About me",
+         "services": "Services",
+         "projects": "Projects",
+         "testimonials": "Testimonials"
+      }
+   },
+   
+   "sections": {
+      "intro": {
+         "avatar": "chithang.jpg",
+         "resume": " ",
+         "fullname": "Duong Chi Thang",
+
+         "links": {
+            "github": "https://github.com/username",
+            "codepen": "https://codepen.com/username"
+         },
+
+         "excerpt": "I’m a web front-end developer in Hue",
+         "techs": [
+            "vue",
+            "figma",
+            "react",
+            "sketch",
+            "sass",
+            "tailwind"
+         ]
+      },
+
+      "about": {
+         "bio": [
+            "My name is Duong Chi Thang. My hometown in Hue. Currently I am a 3rd year student of Hoc Vien Ki Thuat Mat Ma. My major is Information Security but I chose to learn web programming because it suits me.",
+            "My hobbies are football, listening to music, communicating with people,..."
+         ],
+
+         "skills": {
+            "80%": "vue",
+            "75%": "figma",
+            "50%": "react",
+            "85%": "javascript",
+            "70%": "sass",
+            "90%": "tailwind"
+         }
+      },
+         
+      "services": [{
+         "icon": "lightbulb",
+         "title": "Creative Design",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "gem",
+         "title": "User Interface UI/UX",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "thumbs-up",
+         "title": "User Experience",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "code",
+         "title": "Web developemnt",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "medal",
+         "title": "Reponsive",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "mobile",
+         "title": "App developemnt",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }],
+
+      "experiences": [{
+         "periode": "2019 - present",
+         "jobtitle": "Full-stack developer",
+         "company": "Oracle",
+         "tasks": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, facilis.",
+            "Sunt inventore itaque quis quibusdam ab dolorum iusto velit quaerat consectetur."
+         ]
+      }, {
+         "periode": "2015 - 2018",
+         "jobtitle": "Front-end developer",
+         "company": "Facebook",
+         "tasks": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, facilis.",
+            "Sunt inventore itaque quis quibusdam ab dolorum iusto velit quaerat consectetur."
+         ]
+      }, {
+         "periode": "2010 - 2014",
+         "jobtitle": "Back-end developer",
+         "company": "Microsoft",
+         "tasks": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, facilis.",
+            "Sunt inventore itaque quis quibusdam ab dolorum iusto velit quaerat consectetur."
+         ]
+      }],
+
+      "projects": [{
+         "thumbnail": "marvel.png",
+         "title": "Marvel Web",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
+         "builtWidth": ["Html", "Css", "Tailwind", "Javascript"],
+         "links": {
+            "code": "https://github.com",
+            "external-link-alt": "https://demo.com"
+         }
+      }, {
+         "thumbnail": "web-economic.png",
+         "title": "Converse Web",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
+         "builtWidth": ["Vue", "Vuex", "Bootstrap", "Swiper","Tailwind"],
+         "links": {
+            "code": "https://github.com",
+            "external-link-alt": "https://demo.com"
+         }
+      }, {
+         "thumbnail": "Weather.png",
+         "title": "App Weather",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
+         "builtWidth": ["Html", "Css", "Api Weather", "Javascript"],
+         "links": {
+            "code": "https://github.com",
+            "external-link-alt": "https://demo.com"
+         }
+      }, {
+         "thumbnail": "Music.png",
+         "title": "Music App",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
+         "builtWidth": ["Html", "Css", "Javascript"],
+         "links": {
+            "code": "https://github.com",
+            "external-link-alt": "https://demo.com"
+         }
+      }],
+
+      "testimonials": [{
+         "fullname": "Jane Doe",
+         "avatar": "abc.jpg",
+         "jobtitle": "Front-end developer",
+         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
+      }, {
+         "fullname": "Mark Philip",
+         "avatar": "abcdef.jpg",
+         "jobtitle": "Back-end developer",
+         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
+      }, {
+         "fullname": "Joe Paulian",
+         "avatar": "abcdefg_1.jpg",
+         "jobtitle": "Seo manager",
+         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
+      }],
+
+      "contact": {
+         "email": "Chithang0210@gmail.com",
+
+         "social": {
+            "facebook-f": "https://facebook.com/profile.php?id=100037984892809",
+            "twitter": "https://twitter.com/username",
+            "instagram": "https://instagram.com/username",
+            "linkedin-in": "https://www.linkedin.com/in/username"
+         }
+      }
+   }
+}
