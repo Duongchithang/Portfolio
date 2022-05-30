@@ -22,7 +22,7 @@
       <div class="flex items-center container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
       	<!-- Logo -->
          <a href="#intro">
-      		<img class="w-3/4 xs:w-[40px] xs:w-[40px] lg:w-[60px] lg:h-[60px]" :src="handleLogo" :alt="`${ intro.fullname } logo`">
+      		<img class="w-3/4  w-[60px] h-[60px]" :src="handleLogo" :alt="`${ intro.fullname } logo`">
       	</a>
          <!-- End Logo -->
 

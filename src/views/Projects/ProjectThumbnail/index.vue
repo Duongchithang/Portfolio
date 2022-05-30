@@ -7,11 +7,13 @@
 <template>
    <div class="relative">
       <!-- Project thumbnail -->
-      <img
-         class="w-full rounded-xl"
-         :src="`./assets/projects/${ project.thumbnail }`"
-         :alt="project.title" loading="lazy"
-      >
+     
+         <img
+            class="w-full rounded-xl"
+            :src="`./assets/projects/${ project.thumbnail }`"
+            :alt="project.title" loading="lazy"
+         >
+     
       <!-- End Project thumbnail -->
 
       <!-- Project links (source & demo) -->

@@ -107,6 +107,7 @@
       }],
 
       "projects": [{
+         "link":"",
          "thumbnail": "marvel.png",
          "title": "Marvel Web",
          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
@@ -116,30 +117,33 @@
             "external-link-alt": "https://demo.com"
          }
       }, {
+         "link": "",
          "thumbnail": "web-economic.png",
          "title": "Converse Web",
          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
          "builtWidth": ["Vue", "Vuex", "Bootstrap", "Swiper","Tailwind"],
          "links": {
-            "code": "https://github.com",
+            "code": "https://converse-sneaker.netlify.app/",
             "external-link-alt": "https://demo.com"
          }
       }, {
+         "link":"",
          "thumbnail": "Weather.png",
          "title": "App Weather",
          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
          "builtWidth": ["Html", "Css", "Api Weather", "Javascript"],
          "links": {
-            "code": "https://github.com",
+            "code": "https://duongchithang.github.io/App-weather/",
             "external-link-alt": "https://demo.com"
          }
       }, {
+         "link":"",
          "thumbnail": "Music.png",
          "title": "Music App",
          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
          "builtWidth": ["Html", "Css", "Javascript"],
          "links": {
-            "code": "https://github.com",
+            "code": "https://duongchithang.github.io/MusicPLay/",
             "external-link-alt": "https://demo.com"
          }
       }],
