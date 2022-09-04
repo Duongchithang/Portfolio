@@ -18,7 +18,7 @@
 
 		<div>
 			<p class="text-gray-500 dark:text-gray-400 text-sm mt-5">
-				<strong>Chi Thang</strong> &copy; {{ year }} All rights reserved
+				<strong>Created by</strong> Chi Thang
 			</p>
 		</div>
 	</footer>

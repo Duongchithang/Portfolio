@@ -8,7 +8,7 @@
       const isDark = root.classList.contains('dark')
 
       return `./assets/${ !isDark ? logo.dark : logo.light }`
-   })
+   });
 </script>
 
 <template>
@@ -45,7 +45,7 @@
          >
             <a
                class="text-main-color group-hover:text-white group-hover:dark:text-gray-800"
-               :href="link" :aria-label="`${ icon } logo`"
+               :href="link" target="_blank" :aria-label="`${ icon } logo`"
             >
                <i :class="`fab fa-${ icon }`"></i>
             </a>

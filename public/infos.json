@@ -12,22 +12,23 @@
          "about": "About me",
          "services": "Services",
          "projects": "Projects",
-         "testimonials": "Testimonials"
+         "Masters": "Masters"
       }
    },
    
-   "sections": {
-      "intro": {
-         "avatar": "chithang.jpg",
-         "resume": " ",
+   "sections":
+       { 
+       "intro": {
+         "avatar": "avartar.jpg",
+         "resume": "DuongChiThang_CV_WEB.pdf",
          "fullname": "Duong Chi Thang",
 
          "links": {
-            "github": "https://github.com/username",
-            "codepen": "https://codepen.com/username"
+            "github": "https://github.com/Duongchithang",
+            "codepen": "https://codepen.io/"
          },
 
-         "excerpt": "I’m a web front-end developer in Hue",
+         "excerpt": "I’m a web developer",
          "techs": [
             "vue",
             "figma",
@@ -35,8 +36,8 @@
             "sketch",
             "sass",
             "tailwind"
-         ]
-      },
+         ],
+     
 
       "about": {
          "bio": [
@@ -44,15 +45,52 @@
             "My hobbies are football, listening to music, communicating with people,..."
          ],
 
-         "skills": {
-            "80%": "vue",
-            "75%": "figma",
-            "50%": "react",
-            "85%": "javascript",
-            "70%": "sass",
-            "90%": "tailwind"
+         "skills": [
+            {
+               "IdSkill" : 1,
+               "img" : "data:image/png;base64,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",
+               "title_logo" : "VUEJS"
+            },
+            {
+               "IdSkill" : 2,
+               "img" : "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+               "title_logo" : "REACTJS"
+            },
+            {
+               "IdSkill" : 3,
+               "img" : "https://w7.pngwing.com/pngs/178/551/png-transparent-vue-js-javascript-framework-front-and-back-ends-github-technical-angle-text-triangle-thumbnail.png",
+               "title_logo" : "JAVASCRIPT"
+            },
+            {
+               "IdSkill" : 4,
+               "img" : "https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png",
+               "title_logo" : "HTML"
+            },
+            {
+               "IdSkill" : 5,
+               "img" : "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
+               "title_logo" : "CSS"
+            },
+            {
+               "IdSkill" : 6,
+               "img" : "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png",
+               "title_logo" : "TailwindCss"
+            },
+            {
+               "IdSkill" : 7,
+               "img" : "https://nodejs.org/static/images/blog/weekly-update/d7c62f3e-d94c-11e5-8ff8-f32c74b13cc3.png",
+               "title_logo" : "NODEJS"
+            },
+            {
+               "IdSkill" : 8,
+               "img" : "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.jpg",
+               "title_logo" : "MYSQL"
+            }            
+         ]
+            
          }
       },
+   
          
       "services": [{
          "icon": "lightbulb",
@@ -107,61 +145,52 @@
       }],
 
       "projects": [{
-         "link":"",
+         "link":"https://github.com",
          "thumbnail": "marvel.png",
          "title": "Marvel Web",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
-         "builtWidth": ["Html", "Css", "Tailwind", "Javascript"],
+         "description": "Đây là trang web đầu tiên mà tôi code sau 2 tháng tôi học trên trang F8. Chức năng đăng nhập phía client, thêm, sửa, xóa bộ sưu tập ảnh spiderman",
+         "builtWidth": ["HTML", "CSS", "TAILWIND", "JAVASCRIPT"],
          "links": {
             "code": "https://github.com",
             "external-link-alt": "https://demo.com"
          }
       }, {
-         "link": "",
+         "link": "https://converse-sneaker.netlify.app/",
          "thumbnail": "web-economic.png",
          "title": "Converse Web",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
-         "builtWidth": ["Vue", "Vuex", "Bootstrap", "Swiper","Tailwind"],
+         "description": "Trang Web thương mại điện tử bán giày. Product Management, Đây là trang web fullstack đầu tiền mà tôi dev từ đầu đến cuối",
+         "builtWidth": ["VUEJS", "BOOTSTRAP", "SWIPER","TAILWIND","NODEJS","MYSQL"],
          "links": {
             "code": "https://converse-sneaker.netlify.app/",
             "external-link-alt": "https://demo.com"
          }
       }, {
-         "link":"",
-         "thumbnail": "Weather.png",
-         "title": "App Weather",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
-         "builtWidth": ["Html", "Css", "Api Weather", "Javascript"],
+         "link":"https://appcat-api.netlify.app/",
+         "thumbnail": "Cat_APP.png",
+         "title": "Cat App",
+         "description": "Đây là một ứng dụng nho nhỏ dựa trên Api Cat được cung cấp bởi Dev challenges cho phép tìm kiếm thông tin về mèo như chiều cao, cân nặng, tuổi thọ ,.... ",
+         "builtWidth": ["VUEJS", "CSS", "AXIOS", "TAILWIND"],
          "links": {
-            "code": "https://duongchithang.github.io/App-weather/",
+            "code": "https://appcat-api.netlify.app/",
             "external-link-alt": "https://demo.com"
          }
-      }, {
-         "link":"",
-         "thumbnail": "Music.png",
-         "title": "Music App",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur",
-         "builtWidth": ["Html", "Css", "Javascript"],
-         "links": {
-            "code": "https://duongchithang.github.io/MusicPLay/",
-            "external-link-alt": "https://demo.com"
-         }
-      }],
+      }
+   ],
 
       "testimonials": [{
-         "fullname": "Jane Doe",
-         "avatar": "abc.jpg",
-         "jobtitle": "Front-end developer",
+         "fullname": "Sơn Đặng",
+         "avatar": "son-dang.jpg",
+         "jobtitle": "Fullstack developer",
          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }, {
-         "fullname": "Mark Philip",
-         "avatar": "abcdef.jpg",
-         "jobtitle": "Back-end developer",
+         "fullname": "Bùi Văn Nguyện",
+         "avatar": "bui-van-nguyen-img.jpg",
+         "jobtitle": "Fullstack developer",
          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }, {
-         "fullname": "Joe Paulian",
-         "avatar": "abcdefg_1.jpg",
-         "jobtitle": "Seo manager",
+         "fullname": "Phạm Huy Hoàng",
+         "avatar": "pham-huy-hoang.jpg",
+         "jobtitle": "Fullstack developer",
          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }],
 
@@ -170,10 +199,11 @@
 
          "social": {
             "facebook-f": "https://facebook.com/profile.php?id=100037984892809",
-            "twitter": "https://twitter.com/username",
-            "instagram": "https://instagram.com/username",
-            "linkedin-in": "https://www.linkedin.com/in/username"
+            "twitter": "https://twitter.com",
+            "instagram": "https://instagram.com",
+            "linkedin-in": "https://www.linkedin.com"
          }
       }
    }
 }
+

@@ -8,11 +8,13 @@
    <div class="relative">
       <!-- Project thumbnail -->
      
-         <img
-            class="w-full rounded-xl"
-            :src="`./assets/projects/${ project.thumbnail }`"
-            :alt="project.title" loading="lazy"
-         >
+         <a :href="project.link" target="_blank">
+            <img
+               class="w-full rounded-xl"
+               :src="`./assets/projects/${ project.thumbnail }`"
+               :alt="project.title" loading="lazy"
+            >
+         </a>
      
       <!-- End Project thumbnail -->
 

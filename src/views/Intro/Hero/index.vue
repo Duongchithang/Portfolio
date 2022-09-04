@@ -13,9 +13,9 @@
       <!-- Avatar -->
       <div class="relative rounded-full border-gray-300 dark:border-gray-700 dark:border-opacity-50 border p-4 lg:p-7 xl:p-9">
          <img
-            class="w-full rounded-full"
+            class="w-full h-full rounded-[100%]"
             :alt="`${ intro.fullname } photo`"
-            :src="`./assets/${ intro.avatar }`"
+            :src="`./assets/testimonials/${ intro.avatar }`"
             loading="lazy"
          >
       </div>

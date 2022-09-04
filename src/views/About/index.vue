@@ -1,12 +1,14 @@
 <script setup>
    import { inject } from '@vue/runtime-core'
-   import Skill from './Skill/index.vue'
+import Skill from './Skill/index.vue';
 
    /* 
       extract the about section from the "sections" key in the json file
       containing the data
    */
-   const { sections: { about }} = inject('infos')
+   const { sections : {intro}} = inject('infos');
+   let skillArray = intro.about.skills;  
+
 </script>
 
 <template>
@@ -23,7 +25,7 @@
                <p
                   data-aos="fade-left"
                   class="leading-relaxed mb-4 last:mb-0 text-gray-500 dark:text-gray-400"
-                  v-for="bio, k in about.bio"
+                  v-for="bio, k in intro.about.bio"
                   :key="`bio-${ k }`"
                >{{ bio }}</p>
                <!-- End Bigraphy -->
@@ -39,19 +41,9 @@
                <h2 class="text-main-color font-bold mb-5">
                   My Skills
                </h2>
-
-               <!-- Skills list -->
-               <ul class="mt-5 grid md:grid-cols-2 gap-8">
-                  <template 
-                     v-for="skill, level, k in about.skills"
-                     :key="`skill-${ k }`"
-                  >
-                     <!-- Single skill -->
-                     <skill :skill="skill" :level="level"/>
-                     <!-- End Single skill -->
-                  </template>
-               </ul>
-               <!-- End skills list -->
+              <div class="">
+                <Skill :skillArray="skillArray"/>
+              </div>
             </div>
          </div>
       </section-content>

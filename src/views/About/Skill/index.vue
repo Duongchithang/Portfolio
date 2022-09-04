@@ -1,29 +1,69 @@
 <script setup>
 	const props = defineProps({
-		skill: String,
-		level: String
-	})
+		skillArray : Array
+	});
+   const skills = props.skillArray;
+   const ArrayLogo = [
+      {
+         id : 1,
+         img : 'https://e7.pngegg.com/pngimages/232/745/png-clipart-vue-js-javascript-library-react-angularjs-js-template-angle-thumbnail.png'
+      }
+   ];
+   // const URL = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXNfoFfxmCCZr7fxP-nMKcr5SBWRBT8wnnHA&usqp=CAU`;
 </script>
 
 <template>
-   <li data-aos="fade-right">
-      <h3 class="capitalize flex">
-         <!-- Skill name -->
-         <span class="text-sm font-bold">{{ skill }}</span>
-         <!-- End Skill name -->
-         
-         <!-- Skill level -->
-         <span class="ml-auto text-sm font-light">{{ level }}</span>
-         <!-- End Skill level -->
-      </h3>
-
-      <!-- Progress bar -->
-      <div class="h-1 mt-2 bg-gray-500 dark:bg-gray-800 relative">
-         <div
-            class="h-1 bg-main-color absolute"
-            :style="`width: ${ level }`"
-         ></div>
+   <div data-aos="fade-right">
+      <div class="grid grid-cols-3 grid-rows-2 gap-[20px]" >
+         <div class="flex flex-col items-center">
+            <div>
+              <img class="w-[120px] h-[120px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/Vuejs.jpg" alt=""> 
+            </div>
+            <span>
+                Vuejs
+            </span>
+         </div>
+         <div class="flex flex-col items-center">
+            <div>
+              <img class="w-[120px] h-[120px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/Reactjs.png" alt=""> 
+            </div>
+            <span>
+               Reactjs
+            </span>
+         </div>
+         <div class="flex flex-col items-center">
+            <div>
+              <img class="w-[120px] h-[120px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/Tailwind_CSS_Logo.svg.png" alt=""> 
+            </div>
+            <span>
+               TailwindCSS
+            </span>
+         </div>
+         <div class="flex flex-col items-center">
+            <div>
+              <img class="object-cover" src="../../../../public/assets/technologies/IMG_SKILL/node-js-gff6699d2f_640.png" alt=""> 
+            </div>
+            <span>
+              Nodejs
+            </span>
+         </div>
+        
+         <div class="flex flex-col items-center">
+            <div>
+              <img class="object-cover" src="../../../../public/assets/technologies/IMG_SKILL/PHP-logo.svg.png" alt=""> 
+            </div>
+            <span>
+              PHP
+            </span>
+         </div>
+         <div class="flex flex-col items-center">
+            <div>
+              <img class="h-[70px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/MySQL-Logo.wine.png" alt=""> 
+            </div>
+            <span>
+              Mysql
+            </span>
+         </div>
       </div>
-      <!-- End Prograss bar -->
-   </li>
+   </div>
 </template>

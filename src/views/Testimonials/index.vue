@@ -31,7 +31,7 @@
 
 <template>
    <section id="testimonials" class="wrapper">
-      <section-content title="Testimonials" order="5">
+      <section-content title="Masters" order="5">
          <carousel
             :settings="settings"
             :breakpoints="breakpoints"

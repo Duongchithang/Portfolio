@@ -41,7 +41,7 @@
             download
             role="button"
             aria-label="Download cv" 
-            :href="`./assets/${ intro.resume }`"
+            :href="`./assets/testimonials/${ intro.resume }`"
             class="flex items-center px-3 text-sm bg-main-color hover:bg-opacity-80 text-white dark:text-gray-800 rounded-md"
          >
             <i class="fas fa-download mr-2"></i>
@@ -51,7 +51,7 @@
 
          <!-- Github/Codepen Account button -->
          <a
-            v-for="link, icon, i in intro.links"
+            v-for="link, icon,  in intro.links"
             role="button"
             target="_blank"
             
