@@ -14,55 +14,12 @@
 
 <template>
    <div data-aos="fade-right">
-      <div class="grid grid-cols-3 grid-rows-2 gap-[20px]" >
-         <div class="flex flex-col items-center">
-            <div>
-              <img class="w-[120px] h-[120px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/Vuejs.jpg" alt=""> 
-            </div>
-            <span>
-                Vuejs
-            </span>
+      <div class="grid grid-rows-2 gap-[20px] text-[#a8a7a7]" >
+         <div class="flex flex-col">
+            <span>- Front-End : ReactJs, VueJs, TailwindCss, Bootstrap</span>
          </div>
-         <div class="flex flex-col items-center">
-            <div>
-              <img class="w-[120px] h-[120px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/Reactjs.png" alt=""> 
-            </div>
-            <span>
-               Reactjs
-            </span>
-         </div>
-         <div class="flex flex-col items-center">
-            <div>
-              <img class="w-[120px] h-[120px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/Tailwind_CSS_Logo.svg.png" alt=""> 
-            </div>
-            <span>
-               TailwindCSS
-            </span>
-         </div>
-         <div class="flex flex-col items-center">
-            <div>
-              <img class="object-cover" src="../../../../public/assets/technologies/IMG_SKILL/node-js-gff6699d2f_640.png" alt=""> 
-            </div>
-            <span>
-              Nodejs
-            </span>
-         </div>
-        
-         <div class="flex flex-col items-center">
-            <div>
-              <img class="object-cover" src="../../../../public/assets/technologies/IMG_SKILL/PHP-logo.svg.png" alt=""> 
-            </div>
-            <span>
-              PHP
-            </span>
-         </div>
-         <div class="flex flex-col items-center">
-            <div>
-              <img class="h-[70px] object-cover" src="../../../../public/assets/technologies/IMG_SKILL/MySQL-Logo.wine.png" alt=""> 
-            </div>
-            <span>
-              Mysql
-            </span>
+         <div class="flex flex-col">
+            <span>- Back-End : NodeJs, Mysql</span>
          </div>
       </div>
    </div>

@@ -19,7 +19,7 @@
    "sections":
        { 
        "intro": {
-         "avatar": "avartar.jpg",
+         "avatar": "avatar1.jpg",
          "resume": "DuongChiThang_CV_WEB.pdf",
          "fullname": "Duong Chi Thang",
 
@@ -158,7 +158,7 @@
          "link": "https://converse-sneaker.netlify.app/",
          "thumbnail": "web-economic.png",
          "title": "Converse Web",
-         "description": "Trang Web thương mại điện tử bán giày. Product Management, Đây là trang web fullstack đầu tiền mà tôi dev từ đầu đến cuối",
+         "description": "Trang Web thương mại điện tử bán giày. Product Management, Đây là trang web fullstack đầu tiền của tôi",
          "builtWidth": ["VUEJS", "BOOTSTRAP", "SWIPER","TAILWIND","NODEJS","MYSQL"],
          "links": {
             "code": "https://converse-sneaker.netlify.app/",
@@ -166,10 +166,10 @@
          }
       }, {
          "link":"https://appcat-api.netlify.app/",
-         "thumbnail": "Cat_APP.png",
+         "thumbnail": "project-3.png",
          "title": "Cat App",
          "description": "Đây là một ứng dụng nho nhỏ dựa trên Api Cat được cung cấp bởi Dev challenges cho phép tìm kiếm thông tin về mèo như chiều cao, cân nặng, tuổi thọ ,.... ",
-         "builtWidth": ["VUEJS", "CSS", "AXIOS", "TAILWIND"],
+         "builtWidth": ["VUEJS", "CSS", "API CAT", "TAILWIND"],
          "links": {
             "code": "https://appcat-api.netlify.app/",
             "external-link-alt": "https://demo.com"

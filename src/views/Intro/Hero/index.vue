@@ -13,7 +13,7 @@
       <!-- Avatar -->
       <div class="relative rounded-full border-gray-300 dark:border-gray-700 dark:border-opacity-50 border p-4 lg:p-7 xl:p-9">
          <img
-            class="w-full h-full rounded-[100%]"
+            class="w-full h-[300px] rounded-full object-cover"
             :alt="`${ intro.fullname } photo`"
             :src="`./assets/testimonials/${ intro.avatar }`"
             loading="lazy"
