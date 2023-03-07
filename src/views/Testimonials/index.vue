@@ -30,7 +30,7 @@
 </script>
 
 <template>
-   <section id="testimonials" class="wrapper">
+   <section id="Masters" class="wrapper">
       <section-content title="Masters" order="5">
          <carousel
             :settings="settings"

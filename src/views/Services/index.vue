@@ -1,6 +1,6 @@
 <script setup>
    import { inject } from '@vue/runtime-core'
-   const { sections: { services }} = inject('infos')
+   const { sections: { experience }} = inject('infos')
 </script>
 
 <template>
@@ -10,11 +10,11 @@
       <!-- End Ehe pattern -->
          
       <!-- Section content -->
-      <section-content title="Services" order="2">
+      <section-content title="experience" order="2">
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 z-20">
             <div
                class="flex bg-white dark:bg-gray-800 dark:bg-opacity-70 rounded-lg 2xl:rounded-xl p-5"
-               v-for="{ icon, title, description }, k in services"
+               v-for="{ icon, title, description }, k in experience"
                :key="k"
 
                data-aos="fade-up"

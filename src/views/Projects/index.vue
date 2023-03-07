@@ -22,7 +22,7 @@
             >
                <figure class="grid md:grid-cols-2 2xl:grid-cols-1 md:gap-4 lg:gap-7">
                   <!-- Project thumbnail -->
-                  <project-thumbnail :project="project"/>
+                  <project-thumbnail style="width: 100%;" :project="project"/>
                      
                   <!-- Project details -->
                   <project-details :project="project"/>

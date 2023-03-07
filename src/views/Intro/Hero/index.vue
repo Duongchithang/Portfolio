@@ -13,7 +13,7 @@
       <!-- Avatar -->
       <div class="relative rounded-full border-gray-300 dark:border-gray-700 dark:border-opacity-50 border p-4 lg:p-7 xl:p-9">
          <img
-            class="w-full h-[300px] rounded-full object-cover"
+            class="w-[100%] image-hero rounded-full object-cover"
             :alt="`${ intro.fullname } photo`"
             :src="`./assets/testimonials/${ intro.avatar }`"
             loading="lazy"
@@ -42,6 +42,9 @@
 </template>
 
 <style lang="scss" scoped>
+.image-hero{
+   height: 300px;
+}
    .skill {
       // Vue js
       &:nth-of-type(1) {
@@ -120,5 +123,10 @@
             @apply w-16 p-3 bottom-16 left-14;
          }
       };
+   }
+   @media screen and (max-width: 500px){
+      .image-hero{
+         height: 250px;
+      }
    }
 </style>

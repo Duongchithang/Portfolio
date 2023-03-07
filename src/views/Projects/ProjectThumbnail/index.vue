@@ -5,10 +5,10 @@
 </script>
 
 <template>
-   <div class="relative">
+   <div class="w-full relative">
       <!-- Project thumbnail -->
      
-         <a :href="project.link" target="_blank">
+         <a class="w-full" :href="project.link" target="_blank">
             <img
                class="w-full rounded-xl"
                :src="`./assets/projects/${ project.thumbnail }`"
