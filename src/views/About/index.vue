@@ -10,8 +10,6 @@ const {
   sections: { intro },
 } = inject("infos");
 let skillArray = intro.about.skills;
-var music = document.querySelector('.music');
-console.log(music);
 </script>
 
 <template>
@@ -49,7 +47,7 @@ console.log(music);
           <h2 class="text-main-color font-bold mb-5">My Favorite Song</h2>
           <div class="background-[#111827]">
             <audio class="music" controls>
-              <source src="horse.ogg" type="audio/ogg" />
+              <!-- <source src="horse.ogg" type="audio/ogg" /> -->
               <source src="../../../public/assets/IDO.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
