@@ -23,7 +23,7 @@
       <!-- Project technologies -->
       <ul class="flex mt-5">
          <li
-            class="text-xs lg:text-base text-main-color rounded-full mr-7 last:mr-0"
+            class="text-xs lg:text-base text-main-color rounded-full mr-5 last:mr-0"
             v-for="tech, k in project.builtWidth"
             :key="k"
          >{{ tech }}</li>

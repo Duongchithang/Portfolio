@@ -48,7 +48,7 @@ let skillArray = intro.about.skills;
           <div class="background-[#111827]">
             <audio class="music" controls>
               <!-- <source src="horse.ogg" type="audio/ogg" /> -->
-              <source src="../../../public/assets/IDO.mp3" type="audio/mpeg" />
+              <source src="../../../public/assets/music.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
           </div>

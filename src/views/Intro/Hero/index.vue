@@ -13,7 +13,7 @@
       <!-- Avatar -->
       <div class="relative rounded-full border-gray-300 dark:border-gray-700 dark:border-opacity-50 border p-4 lg:p-7 xl:p-9">
          <img
-            class="w-[100%] image-hero rounded-full object-cover"
+            class="w-full h-full image-hero rounded-full object-cover"
             :alt="`${ intro.fullname } photo`"
             :src="`./assets/testimonials/${ intro.avatar }`"
             loading="lazy"
@@ -22,13 +22,13 @@
       <!-- End avatar -->
 
       <!-- Technologies -->
-      <ul class="absolute top-0 left-0 w-full h-full rounded-full">
+      <ul class="absolute top-0 left-0 w-[100%] h-[100%] rounded-full">
          <li
             class="
                skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40
                backdrop-filter backdrop-blur rounded-full shadow-2xl
             "
-            v-for="skill, k in intro.techs"
+            v-for="skill in intro.techs"
             :key="skill" :title="skill"
          >
             <img

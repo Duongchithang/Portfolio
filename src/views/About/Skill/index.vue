@@ -16,10 +16,10 @@
    <div data-aos="fade-right">
       <div class="grid grid-rows-2 gap-[20px] text-[#a8a7a7]" >
          <div class="flex flex-col">
-            <span>- Front-End : ReactJs, VueJs, TailwindCss, Bootstrap</span>
+            <span>Front-End : ReactJs, VueJs, TailwindCss, Bootstrap</span>
          </div>
          <div class="flex flex-col">
-            <span>- Back-End : NodeJs, Mysql</span>
+            <span>Back-End : .NET core, Nodejs, Mysql, Mssql</span>
          </div>
       </div>
    </div>

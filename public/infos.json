@@ -76,16 +76,12 @@
                "img" : "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png",
                "title_logo" : "TailwindCss"
             },
-            {
+             {
                "IdSkill" : 7,
-               "img" : "https://nodejs.org/static/images/blog/weekly-update/d7c62f3e-d94c-11e5-8ff8-f32c74b13cc3.png",
-               "title_logo" : "NODEJS"
-            },
-            {
-               "IdSkill" : 8,
-               "img" : "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.jpg",
-               "title_logo" : "MYSQL"
-            }            
+               "img" : "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png",
+               "title_logo" : "TailwindCss"
+            }
+                     
          ]
             
          }
@@ -159,7 +155,7 @@
          "thumbnail": "web-economic.png",
          "title": "Converse Web",
          "description": "Trang Web thương mại điện tử bán giày. Product Management, Đây là trang web fullstack đầu tiền của tôi",
-         "builtWidth": ["VUEJS", "BOOTSTRAP", "SWIPER","TAILWIND","NODEJS","MYSQL"],
+         "builtWidth": ["VUEJS", "BOOTSTRAP","NODEJS","MYSQL"],
          "links": {
             "code": "https://sneaker-fe.vercel.app/",
             "external-link-alt": "https://demo.com"
