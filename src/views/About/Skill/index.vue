@@ -14,13 +14,17 @@
 
 <template>
    <div data-aos="fade-right">
-      <div class="grid grid-rows-2 gap-[20px] text-[#a8a7a7]" >
+      <div class="grid grid-rows-3 gap-[20px] text-[#a8a7a7]" >
          <div class="flex flex-col">
             <span>Front-End : ReactJs, VueJs, TailwindCss, Bootstrap</span>
          </div>
          <div class="flex flex-col">
-            <span>Back-End : .NET core, Nodejs, Mysql, Mssql</span>
+            <span>Back-End : .NET core, Typescript, Nodejs, Mysql, Mssql</span>
          </div>
+          <div class="flex flex-col">
+               <span>Other : Git, Linux(Ubuntu)</span>
+            </div>
+             
       </div>
    </div>
 </template>

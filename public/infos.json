@@ -173,6 +173,18 @@
          
       },
       {
+         "link":"https://github.com/Duongchithang/adidasShop_aspnetcore6_using_MVMV",
+         "thumbnail": "adidashop.png",
+         "title": "Adidas Shop",
+         "description": "Trang e-commerce sử dụng .NET cơ bản, chắc năng bao gôm Login, Register User , Product Checkout, Transaction, Payment method",
+         "builtWidth": [".NET CORE", "MSSQL", "BOOTSTRAP"],
+         "links": {
+            "code": "https://github.com/Duongchithang/adidasShop_aspnetcore6_using_MVMV",
+            "external-link-alt": "https://github.com/Duongchithang/adidasShop_aspnetcore6_using_MVMV"
+         }
+         
+      },
+      {
          "link":"https://food-order-5tw12me2p-duongchithang.vercel.app/",
          "thumbnail": "chithangtiec.png",
          "title": "Food Order",
@@ -189,17 +201,17 @@
       "testimonials": [{
          "fullname": "Sơn Đặng",
          "avatar": "son-dang.jpg",
-         "jobtitle": "Fullstack developer",
+         "jobtitle": "Software Engineer",
          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }, {
          "fullname": "Bùi Văn Nguyện",
          "avatar": "bui-van-nguyen-img.jpg",
-         "jobtitle": "Fullstack developer",
+         "jobtitle": "Software Engineer",
          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }, {
          "fullname": "Phạm Huy Hoàng",
          "avatar": "pham-huy-hoang.jpg",
-         "jobtitle": "Fullstack developer",
+         "jobtitle": "Software Engineer",
          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }],
 
@@ -207,7 +219,7 @@
          "email": "Chithang0210@gmail.com",
 
          "social": {
-            "facebook-f": "https://facebook.com/profile.php?id=100037984892809",
+            "facebook-f": "https://www.facebook.com/profile.php?id=100090655381959",
             "twitter": "https://twitter.com",
             "instagram": "https://instagram.com",
             "linkedin-in": "https://www.linkedin.com"
