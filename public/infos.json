@@ -183,19 +183,8 @@
             "external-link-alt": "https://github.com/Duongchithang/adidasShop_aspnetcore6_using_MVMV"
          }
          
-      },
-      {
-         "link":"https://food-order-5tw12me2p-duongchithang.vercel.app/",
-         "thumbnail": "chithangtiec.png",
-         "title": "Food Order",
-         "description": "Đây là một ứng dụng nho nhỏ về quản lí đặt tiệc có các chức năng login, register và đặt đồ ăn",
-         "builtWidth": ["REACT", "NODEJS(Strapi)", "REDUX", "MYSQL"],
-         "links": {
-            "code": "https://appcat-api.netlify.app/",
-            "external-link-alt": "https://demo.com"
-         }
-         
       }
+    
    ],
 
       "testimonials": [{
